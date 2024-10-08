@@ -1,0 +1,180 @@
+.intro-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem; 
+    margin: 0 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .intro-text {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .intro-text h1 {
+    font-size: 2.5rem;
+    color: #000;
+  }
+  
+  .intro-text p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 1.5rem 0;
+  }
+  
+  .create-quiz-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .intro-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .intro-video {
+    max-width: 80%; 
+    height: auto; 
+    border-radius: 10px;
+  }
+
+  .intro-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .intro-text {
+    max-width: 50%;
+  }
+  
+  .intro-image video {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .create-quiz-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .create-quiz-btn:hover {
+    background-color: #348cea;
+  }
+  
+  .hero-container {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .hero-container h1 {
+    font-size: 2.5rem;
+    font-weight: 36px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .hero-container p {
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 20px;
+
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #555;
+  }
+
+  .quiz-guide-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Aligns items to the start (left) */
+    padding: 2rem;
+    background-color: #f5f5f5; /* Light background color */
+}
+  
+.quiz-guide-content {
+  max-width: 50%; /* You can adjust this width as necessary */
+  margin-left: 110px; /* Moves the text to the right */
+}
+  
+  .quiz-guide-content h1 {
+    font-family: 'Roboto', sans-serif; /* Using Roboto for headings */
+    font-size: 2.5rem; /* Increase font size for better visibility */
+    margin-bottom: 1rem;
+    color: #333; /* Dark color for contrast */
+  }
+  
+  .quiz-guide-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .quiz-guide-content ul li {
+    font-family: 'Open Sans', sans-serif; /* Using Open Sans for list items */
+    font-size: 1.1rem; /* Font size for list items */
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    color: #555; /* A softer color for the text */
+  }
+  
+  .quiz-guide-content ul li:before {
+    content: "●";
+    color: green;
+    margin-right: 10px;
+  }
+  
+  .quiz-guide-image {
+    max-width: 40%; /* Container size */
+    display: flex;
+    justify-content: center; /* Center the image */
+    align-items: center; /* Center the image vertically */
+}
+
+.guide-image {
+    width: 100%; /* Set to full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 300px; /* Set a maximum height */
+    border-radius: 8px; /* Slightly rounded corners */
+    object-fit: cover; /* Ensure the image covers the container */
+    mix-blend-mode: multiply; /* Blending effect */
+    /* Remove the background color */
+}
+
+  
+  
+  
+  
+  
+  @media (max-width: 768px) {
+    .intro-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .intro-text,
+    .intro-image {
+      max-width: 100%;
+    }
+  
+    .intro-text {
+      margin-bottom: 2rem;
+    }
+  }
+  

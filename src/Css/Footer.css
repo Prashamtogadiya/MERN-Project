@@ -1,0 +1,130 @@
+.footer {
+  background-color: #f7f7f7;
+  padding: 40px 20px;
+}
+
+.footer-top {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo img {
+  height: 60px;
+  margin-bottom: 10px;
+  transition: filter 0.3s ease; /* Smooth transition for the color change */
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #112A46; /* Default icon color */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth transition for icon color */
+}
+
+/* Individual hover colors for each icon */
+.social-icons a:hover {
+  color: inherit; /* Keeps the current color on hover for the icons */
+}
+
+.social-icons a:hover:nth-child(1) { /* Facebook */
+  color: #3b5998; /* Facebook Blue */
+}
+
+.social-icons a:hover:nth-child(2) { /* LinkedIn */
+  color: #0077b5; /* LinkedIn Blue */
+}
+
+.social-icons a:hover:nth-child(3) { /* YouTube */
+  color: #ff0000; /* YouTube Red */
+}
+
+.social-icons a:hover:nth-child(4) { /* Instagram */
+  color: #c32aa3; /* Instagram Pink */
+}
+
+.social-icons a:hover:nth-child(5) { /* Twitter */
+  color: #1da1f2; /* Twitter Blue */
+}
+
+/* Change logo color based on hover state */
+.social-icons a:nth-child(1):hover ~ .footer-logo img { /* Facebook */
+  filter: brightness(0) saturate(100%) invert(23%) sepia(12%) saturate(559%) hue-rotate(193deg) brightness(92%) contrast(92%);
+}
+
+.social-icons a:nth-child(2):hover ~ .footer-logo img { /* LinkedIn */
+  filter: brightness(0) saturate(100%) invert(56%) sepia(89%) saturate(605%) hue-rotate(194deg) brightness(95%) contrast(102%);
+}
+
+.social-icons a:nth-child(3):hover ~ .footer-logo img { /* YouTube */
+  filter: brightness(0) saturate(100%) invert(61%) sepia(84%) saturate(669%) hue-rotate(358deg) brightness(99%) contrast(100%);
+}
+
+.social-icons a:nth-child(4):hover ~ .footer-logo img { /* Instagram */
+  filter: brightness(0) saturate(100%) invert(53%) sepia(51%) saturate(668%) hue-rotate(284deg) brightness(99%) contrast(103%);
+}
+
+.social-icons a:nth-child(5):hover ~ .footer-logo img { /* Twitter */
+  filter: brightness(0) saturate(100%) invert(56%) sepia(89%) saturate(605%) hue-rotate(194deg) brightness(95%) contrast(102%);
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 0 15px;
+  text-align: left;
+}
+
+.footer-column h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column li {
+  margin-bottom: 8px;
+  color: #112A46;
+  cursor: pointer;
+}
+
+.footer-column li:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  margin-top: 30px;
+}
+
+.language-selector {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #112A46;
+}
+
+.language-selector i {
+  margin-right: 10px;
+}
